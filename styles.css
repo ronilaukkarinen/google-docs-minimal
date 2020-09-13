@@ -151,3 +151,23 @@ docs.omnibox.autocomplete {
 .kix-document-top-shadow-inner {
   opacity: 0 !important;
 }
+
+/* Show word count widget */
+.kix-documentmetrics-widget {
+  box-shadow: none !important;
+  left: 0 !important;
+  margin-left: -5px !important;
+}
+
+.kix-documentmetrics-widget.docs-material-gm-select > div {
+  opacity: 1;
+}
+
+.kix-documentmetrics-widget.docs-material-gm-select.docs-material-gm-select-hover > div {
+  background: transparent !important;
+  opacity: 1;
+}
+
+.kix-documentmetrics-widget .docs-material-gm-select-caption {
+  display: none;
+}
