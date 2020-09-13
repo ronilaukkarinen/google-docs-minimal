@@ -60,6 +60,7 @@ docs.omnibox.autocomplete {
 
 .left-sidebar-container {
   margin-top: -48px !important;
+  z-index: 130;
 }
 
 @media (min-width: 1050px) {
@@ -111,6 +112,12 @@ docs.omnibox.autocomplete {
 .docs-ruler {
   z-index: 122;
   position: relative;
+  opacity: 0;
+}
+
+.docs-ruler:hover {
+  opacity: 1;
+  transition: all .33s;
 }
 
 .docs-material .docs-icon#docs-navigation-tab-button-list-icon {
