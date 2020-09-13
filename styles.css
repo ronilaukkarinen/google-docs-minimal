@@ -109,13 +109,11 @@ docs.omnibox.autocomplete {
 }
 
 .docs-ruler {
-  z-index: 999999;
+  z-index: 122;
   position: relative;
 }
 
-.docs-material .docs-icon,
-.docs-material .goog-color-menu-button-indicator .docs-icon,
-.docs-material .sketchy-toolbar-color-menu-button .goog-toolbar-menu-button-caption .docs-icon {
+.docs-material .docs-icon#docs-navigation-tab-button-list-icon {
   margin: 0 !important;
 }
 

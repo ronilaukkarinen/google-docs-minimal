@@ -6,7 +6,7 @@ When I write, I won't tolerate any distractions. Google Docs is great, but by de
 
 1. Download this repo and unpack CSS.
 2. Get [nativefier](https://github.com/jiahaog/nativefier/)
-3. Run command `nativefier --name 'Google Docs' 'https://docs.google.com/document/d/1SZHfWVtaz5saHk-ezr0wrRzNwxl9nlXwEY_pxdCO8eI/edit' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' -e 9.1.0 --inject /Users/rolle/Projects/google-docs-minimal/styles.css` (edit css path to the place you unpacked the css)
+3. Run command `nativefier --name 'Google Docs' 'https://docs.google.com/document/d/YOURDOCUMENT/edit' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": false } }' -e 9.1.0 --inject /Users/rolle/Projects/google-docs-minimal/styles.css` (edit doc link and the CSS path to the place you unpacked the CSS)
 4. Move Google Docs.app to Applications
 
 ![Screenshot 1](https://i.imgur.com/ex1D3RQ.png "Screenshot")
