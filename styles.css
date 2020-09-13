@@ -105,7 +105,12 @@ docs.omnibox.autocomplete {
   height: 150px;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
   top: 0;
-  z-index: 99;
+  z-index: 122;
+}
+
+.docs-ruler {
+  z-index: 999999;
+  position: relative;
 }
 
 .docs-material .docs-icon,
