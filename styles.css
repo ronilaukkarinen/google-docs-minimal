@@ -1,0 +1,143 @@
+#docs-chrome {
+  background: #fff none repeat scroll 0% 0% !important;
+  color: #111 !important;
+}
+
+#gb#gb a.gb_b,
+.docs-presence-plus-widget-status {
+  color: #ddd !important;
+}
+
+/* Document title box */
+.docs-title-input {
+  background-color: #fff !important;
+  border-radius: 2px !important;
+  border: 1px solid #fff !important;
+  border-top-color: #fff !important;
+  font-style: normal !important;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.15), inset 0 1px rgba(255, 255, 255, 0.1) !important;
+}
+
+.docs-title-input:focus {
+  color: #000 !important;
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  border-top-color: #fff !important;
+}
+
+.docs-title-untitled,
+.docs-explore-widget {
+  display: none !important;
+}
+
+/* Main toolbar */
+#docs-toolbar-wrapper {
+  border-top: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+  background-image: linear-gradient(#fff, #fff) !important;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Toolbar's vertical dividers */
+.goog-toolbar-separator.goog-inline-block {
+  border-left: 1px solid #fff !important;
+}
+
+/* search the menus color change */
+#docs-omnibox-toolbar {
+  color: #fff;
+  background-color: #fff;
+}
+
+input.docs-omnibox-input.jfk-textinput {
+  color: black;
+  background-color: #fff;
+}
+
+docs.omnibox.autocomplete {
+  color: #fff;
+}
+
+.left-sidebar-container {
+  margin-top: -48px !important;
+}
+
+@media (min-width: 1050px) {
+  .left-sidebar-container {
+    margin-left: -19px !important;
+  }
+}
+
+/* Background behind the document */
+#docs-editor {
+  background: #fff none repeat scroll 0% 0% !important;
+}
+
+#docs-toolbar-wrapper [role="button"],
+#docs-toolbar-wrapper [role="combobox"],
+#docs-toolbar-wrapper [role="listbox"] {
+  opacity: 0;
+  transition: all 1s;
+}
+
+#docs-toolbar-wrapper:hover [role="button"],
+#docs-toolbar-wrapper:hover [role="combobox"],
+#docs-toolbar-wrapper:hover [role="listbox"] {
+  opacity: 1 !important;
+}
+
+.kix-page-compact,
+.kix-page-compact-first {
+  box-shadow: none !important;
+}
+
+@media (min-width: 1050px) {
+  .kix-appview {
+    /* Offset, because does not seem to be centered */
+    margin-left: 19px !important;
+  }
+}
+
+#kix-appview::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  top: 0;
+  z-index: 99;
+}
+
+.docs-material .docs-icon,
+.docs-material .goog-color-menu-button-indicator .docs-icon,
+.docs-material .sketchy-toolbar-color-menu-button .goog-toolbar-menu-button-caption .docs-icon {
+  margin: 0 !important;
+}
+
+.kix-page-compact::before {
+  border-top: 1px #fff !important;
+  border: 1px #fff !important;
+}
+
+.kix-paginateddocumentplugin-background docs-ui-unprintable {
+  color: #fff !important;
+  width: 794px;
+  background-color: rgb(25, 25, 25);
+  height: 900px;
+  padding-top: 96px;
+}
+
+/* Document drop-shadow removal */
+.kix-page-paginated,
+.kix-paginateddocumentplugin.kix-paginateddocumentplugin-compact-mode {
+  box-shadow: none !important;
+}
+
+.docs-explore-widget-button goog-inline-block goog-flat-button {
+  -webkit-filter: invert(1) !important;
+  filter: invert(1) !important;
+}
+
+.kix-document-top-shadow-inner {
+  opacity: 0 !important;
+}
