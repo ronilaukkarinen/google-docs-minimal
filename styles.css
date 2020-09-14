@@ -171,3 +171,11 @@ docs.omnibox.autocomplete {
 .kix-documentmetrics-widget .docs-material-gm-select-caption {
   display: none;
 }
+
+body,
+body * {
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
