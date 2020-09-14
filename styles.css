@@ -179,3 +179,7 @@ body * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.docs-slidingdialog {
+  border: 0;
+}
