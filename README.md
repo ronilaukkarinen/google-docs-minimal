@@ -4,6 +4,8 @@ When I write, I won't tolerate any distractions. Google Docs is great, but by de
 
 My preferred fonts are: **Helvetica Neue** for headings, **Gill Sans** or **Libre Baskerville** on paragraphs.
 
+OR **Avenir** for everything. Avenir is awesome!
+
 ### Installation on macOS
 
 1. Download this repo and unpack CSS.
