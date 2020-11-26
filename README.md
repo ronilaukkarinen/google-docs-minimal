@@ -10,7 +10,13 @@ OR **Avenir** for everything. Avenir is awesome!
 
 1. Download this repo and unpack CSS.
 2. Get [nativefier](https://github.com/jiahaog/nativefier/)
-3. Run command `nativefier --name 'Google Docs' 'https://docs.google.com/document/d/YOURDOCUMENT/edit' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": true } }' -e 10.1.0 --inject /Users/YOURUSERNAME/Projects/google-docs-minimal/styles.css --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' --full-screen` (edit doc link and the CSS path to the place you unpacked the CSS)
+3. Run command `nativefier --name 'Google Docs' 'https://docs.google.com/document/d/YOURDOCUMENT/edit' --internal-urls '.*' --browserwindow-options '{ "webPreferences": { "spellcheck": true } }' -e 10.1.0 --inject /Users/YOURUSERNAME/Projects/google-docs-minimal/styles.css --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36' --full-screen` (edit doc link and the CSS path to the place you unpacked the CSS, for dark theme use styles-dark.css)
 4. Move Google Docs.app to Applications
 
-![Screenshot 1](https://i.imgur.com/ex1D3RQ.png "Screenshot")
+#### Light theme
+
+![Light theme](https://i.imgur.com/ex1D3RQ.png "Screenshot")
+
+#### Dark theme
+
+![Dark theme](https://i.imgur.com/xsliUL1.png "Screenshot")
