@@ -14,3 +14,5 @@ OR **Avenir** for everything. Avenir is awesome!
 4. Move Google Docs.app to Applications
 
 ![Light theme](https://i.imgur.com/ex1D3RQ.png "Screenshot")
+
+![Dark theme](https://i.imgur.com/OGUgP1e.jpg "Screenshot")
