@@ -1,5 +1,7 @@
 # Minimal app for Google Docs
 
+**Please note:** This app is no longer maintained. You can achieve the same thing with [Distration Free Mode](https://chrome.google.com/webstore/detail/distraction-free-mode-%E2%80%94-g/blmejkgbnceohgjfnoiegdlbfkmpkeha?hl=en) Chrome Extension and web shortcut.
+
 When I write, I won't tolerate any distractions. Google Docs is great, but by default has too many panels visible. Even full screen won't hide them all. So I created this small app for distraction free writing experience.
 
 My preferred fonts are: **Helvetica Neue** for headings, **Gill Sans** or **Libre Baskerville** on paragraphs.
